@@ -3,7 +3,7 @@
 :root {
   --main-color: #1d4d35;
   --black-color: #0e0e0e;
-  --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+  --border: 1.6px solid rgba(255, 255, 255, 0.4);
 }
 
 * {
@@ -55,11 +55,11 @@ a {
 }
 
 .btn {
-  margin-top: 1rem;
+  margin-top: 16px;
   display: inline-block;
-  padding: 2rem 3.75rem;
-  border-radius: 30rem;
-  font-size: 1.7rem;
+  padding: 2rem 60px;
+  border-radius: 480px;
+  font-size: 27.2px;
   color: #fff;
   background-color: #1d4d35;
   cursor: pointer;
@@ -72,9 +72,9 @@ a {
 .heading {
   color: #fff;
   text-transform: uppercase;
-  font-size: 4rem;
-  margin-bottom: 3.5rem;
-  border-bottom: 0.1rem solid #fff;
+  font-size: 64px;
+  margin-bottom: 56px;
+  border-bottom: 1.6px solid #fff;
 }
 
 .heading span {
@@ -83,25 +83,25 @@ a {
 }
 
 .search-input {
-  font-size: 1.6rem;
+  font-size: 25.6px;
   color: var(--black-color);
-  padding: 1rem;
+  padding: 16px;
   text-transform: none;
-  border-radius: 3rem;
+  border-radius: 48px;
 }
 
-/*! header start  */
+/*header start  */
 
 .header .search-form {
   position: absolute;
   top: 115%;
   right: 7%;
   background-color: #ffffff;
-  width: 50rem;
-  height: 5rem;
+  width: 800px;
+  height: 80px;
   display: flex;
   align-items: center;
-  border-radius: 3rem;
+  border-radius: 48px;
   box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 75%);
   transform: scaleY(0);
 }
@@ -112,8 +112,8 @@ a {
 
 .header .search-form i {
   cursor: pointer;
-  font-size: 2.2rem;
-  margin-right: 1.5rem;
+  font-size: 35.2px;
+  margin-right: 24px;
   color: var(--black-color);
 }
 
@@ -122,7 +122,7 @@ a {
 }
 
 .header .logo img {
-  height: 10rem;
+  height: 160px;
 }
 
 .header {
@@ -131,8 +131,8 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0 7%;
-  margin: 2rem 7%;
-  border-radius: 30rem;
+  margin: 32px 7%;
+  border-radius: 480px;
   box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
   position: sticky;
   top: 0;
@@ -140,22 +140,22 @@ a {
 }
 
 .header .navbar a {
-  margin: 0 1rem;
-  font-size: 1.6rem;
+  margin: 0 16px;
+  font-size: 25.6px;
   color: var(--black-color);
-  border-bottom: 0.1rem solid transparent;
+  border-bottom: 1.6px solid transparent;
 }
 
 .header .navbar .active,
 .header .navbar a:hover {
   border-color: var(--main-color);
-  padding-bottom: 0.5rem;
+  padding-bottom: 8px;
 }
 
 .header .buttons button {
   cursor: pointer;
-  font-size: 2.5rem;
-  margin-left: 2rem;
+  font-size: 40px;
+  margin-left: 32px;
   background-color: transparent;
   color: #1d4d35;
 }
@@ -163,23 +163,23 @@ a {
 .header .cart-items-container {
   position: absolute;
   top: 95%;
-  height: calc(100vh - 9rem);
-  width: 35rem;
+  height: calc(100vh - 144px);
+  width: 560px;
   background-color: #fff;
   box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
   right: -100%;
 }
 
 .header .cart-items-container.active {
-  right: 3rem;
+  right: 48px;
 }
 
 .header .cart-items-container .cart-item {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1.5rem;
+  gap: 24px;
+  padding: 24px;
 }
 
 .header .cart-items-container .cart-item:hover {
@@ -188,25 +188,25 @@ a {
 
 .header .cart-items-container .cart-item .fa-times {
   position: absolute;
-  top: 1rem;
-  right: 1.5rem;
-  font-size: 2rem;
+  top: 16px;
+  right: 24px;
+  font-size: 32px;
   cursor: pointer;
   color: var(--black-color);
 }
 
 .header .cart-items-container .cart-item img {
-  height: 7rem;
+  height: 112px;
 }
 
 .header .cart-items-container .cart-item .content h3 {
-  font-size: 2rem;
+  font-size: 32px;
   color: var(--black-color);
-  padding-bottom: 0.5rem;
+  padding-bottom: 8px;
 }
 
 .header .cart-items-container .cart-item .content .price {
-  font-size: 1.5rem;
+  font-size: 24px;
   color: var(--black-color);
 }
 
@@ -228,26 +228,26 @@ a {
   background: url(../images/home.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: -14.5rem;
+  margin-top: -232px;
   display: flex;
   align-items: center;
 }
 
 .home .content {
-  max-width: 60rem;
+  max-width: 960px;
 }
 
 .home .content h3 {
-  font-size: 10rem;
+  font-size: 160px;
   color: #fff;
   text-shadow: 5px -3px 5px yellow;
 }
 
 .home .content p {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.8;
-  padding: 1rem 0;
+  padding: 16px 0;
   color: #ccc;
 }
 /*! home end  */
@@ -255,16 +255,16 @@ a {
 /*! menu start  */
 .menu .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 24px;
 }
 
 .menu .box-container .box {
-  padding: 3rem;
+  padding: 48px;
   background-color: #fff;
-  border-radius: 3rem;
+  border-radius: 48px;
   background-color: #fff;
-  min-height: 60rem;
+  min-height: 960px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -277,22 +277,22 @@ a {
 }
 
 .menu .box-container .box .menu-category {
-  font-size: 1.2rem;
+  font-size: 19.2px;
   text-transform: lowercase;
 }
 
 .menu .box-container .box h3 {
-  font-size: 3rem;
-  padding: 1rem 0;
+  font-size: 48px;
+  padding: 16px 0;
 }
 
 .menu .box-container .box .price {
-  font-size: 2.5rem;
-  padding: 0.5rem 0;
+  font-size: 40px;
+  padding: 8px 0;
 }
 
 .menu .box-container .box .price span {
-  font-size: 1.5rem;
+  font-size: 24px;
   text-decoration: line-through;
   font-weight: 300;
 }
@@ -302,20 +302,20 @@ a {
 /*! producst start  */
 .products .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 24px;
 }
 
 .products .box-container .box {
   text-align: center;
   background-color: #fff;
   position: relative;
-  border-radius: 3rem;
-  height: 60rem;
+  border-radius: 48px;
+  height: 960px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 48px;
 }
 
 .products .box-container .box .box-head {
@@ -327,11 +327,11 @@ a {
 }
 
 .products .box-container .box .box-head .title {
-  font-size: 1.4rem;
+  font-size: 22.4px;
 }
 
 .products .box-container .box .box-head .name {
-  font-size: 4rem;
+  font-size: 64px;
   font-weight: bold;
   text-align: start;
   overflow-wrap: anywhere;
@@ -349,7 +349,7 @@ a {
   width: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-  border-radius: 3rem;
+  border-radius: 48px;
 }
 
 .products .box-container .dark-bg img {
@@ -375,11 +375,11 @@ a {
 }
 
 .products .box-container .box-bottom .info .price {
-  font-size: 3rem;
+  font-size: 48px;
 }
 
 .products .box-container .box-bottom .info .amount {
-  font-size: 1.4rem;
+  font-size: 22.4px;
 }
 
 .products .box-container .dark-bg .box-bottom .info .price,
@@ -392,13 +392,13 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 6.5rem;
-  height: 6.5rem;
-  border: 0.2rem solid var(--main-color);
+  width: 104px;
+  height: 104px;
+  border: 3.2px solid var(--main-color);
 }
 
 .products .box-container .box-bottom .product-btn a i {
-  font-size: 1.6rem;
+  font-size: 25.6px;
   color: var(--main-color);
 }
 
@@ -408,11 +408,11 @@ a {
 .about .row {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 2rem;
+  column-gap: 32px;
 }
 
 .about .row .image {
-  flex: 1 1 45rem;
+  flex: 1 1 720px;
 }
 
 .about .row img {
@@ -420,18 +420,13 @@ a {
 }
 
 .about .row .content {
-  flex: 1 1 45rem;
+  flex: 1 1 720px;
 }
 
 .about .row .content h3 {
-  font-size: 3rem;
-  color: #fff;
-}
-
-.about .row .content p {
-  font-size: 1.6rem;
-  color: #ccc;
-  padding: 1rem 0;
+  font-size: 48px;
+  color: white;
+  padding: 16px 0;
   line-height: 1.8;
 }
 
@@ -440,39 +435,39 @@ a {
 /*! review start  */
 .review .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;
 }
 
 .review .box-container .box {
   border: var(--border);
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 80px 48px;
   background-color: #fff;
-  border-radius: 3rem;
+  border-radius: 48px;
 }
 
 .review .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.8;
-  padding: 2rem 0;
+  padding: 32px 0;
 }
 
 .review .box-container .box .user {
-  height: 5rem;
-  width: 5rem;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .review .box-container .box h3 {
-  padding: 1rem 0;
-  font-size: 2rem;
+  padding: 16px 0;
+  font-size: 32px;
   color: var(--main-color);
 }
 
 .review .box-container .box .stars i {
-  font-size: 1.5rem;
+  font-size: 24px;
   color: gold;
 }
 
@@ -483,43 +478,43 @@ a {
   display: flex;
   background-color: var(--black-color);
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .contact .row .map {
-  flex: 1 1 45rem;
+  flex: 1 1 720px;
   width: 100%;
   object-fit: cover;
 }
 .contact .row form {
-  flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  flex: 1 1 720px;
+  padding: 80px 32px;
   text-align: center;
 }
 
 .contact .row form h3 {
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 56px;
   color: #fff;
 }
 
 .contact .row form .inputBox {
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+  margin: 32px 0;
   border: var(--border);
 }
 
 .contact .row form .inputBox i {
   color: #fff;
-  font-size: 2rem;
-  padding-left: 2rem;
+  font-size: 32px;
+  padding-left: 32px;
 }
 
 .contact .row form .inputBox input {
   width: 100%;
-  padding: 2rem;
-  font-size: 1.7rem;
+  padding: 32px;
+  font-size: 27.2px;
   color: #fff;
   text-transform: none;
   background-color: transparent;
@@ -536,21 +531,21 @@ a {
 /*! blog start  */
 .blogs .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 24px;
 }
 
 .blogs .box-container .box {
   background-color: #fff;
-  border-radius: 3rem;
+  border-radius: 48px;
 }
 
 .blogs .box-container .box .image {
-  height: 25rem;
+  height: 400px;
   overflow: hidden;
   width: 100%;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
 }
 
 .blogs .box-container .box .image img {
@@ -564,25 +559,25 @@ a {
 }
 
 .blogs .box-container .box .content {
-  padding: 2rem;
+  padding: 32px;
 }
 
 .blogs .box-container .box .content .title {
   line-height: 1.5;
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 .blogs .box-container .box .content span {
   display: block;
-  padding-top: 1rem;
-  font-size: 2rem;
+  padding-top: 16px;
+  font-size: 32px;
 }
 
 .blogs .box-container .box .content p {
-  font-size: 1.6rem;
+  font-size: 25.6px;
   line-height: 1.8;
   color: #ccc;
-  padding: 1rem 0;
+  padding: 16px 0;
 }
 /*! blog end  */
 
@@ -598,28 +593,28 @@ a {
 }
 
 .footer .search .search-input {
-  width: 30rem;
+  width: 480px;
 }
 
 .footer .search .btn-primary {
   background-color: var(--main-color);
-  padding: 1rem 2rem;
-  margin-left: 1rem;
+  padding: 16px 32px;
+  margin-left: 16px;
 }
 
 .footer .share {
-  padding: 2rem 0;
+  padding: 32px 0;
 }
 
 .footer .share a {
-  width: 5rem;
-  height: 5rem;
-  line-height: 5rem;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
   color: #fff;
-  font-size: 2rem;
+  font-size: 32px;
   border: var(--border);
   border-radius: 50%;
-  margin: 0.3rem;
+  margin: 4.8px;
 }
 
 .footer .share a:hover {
@@ -630,14 +625,14 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .footer .links a {
   background-color: var(--main-color);
-  padding: 0.7rem 2rem;
+  padding: 11.2px 32px;
   color: #fff;
-  font-size: 2rem;
+  font-size: 32px;
   border: var(--border);
 }
 
@@ -651,10 +646,10 @@ a {
 }
 
 .footer .credit {
-  font-size: 2rem;
+  font-size: 32px;
   color: #fff;
   font-weight: 300;
-  padding-top: 1.5rem;
+  padding-top: 24px;
 }
 
 .footer .credit span {
@@ -669,19 +664,19 @@ a {
   }
 
   .header {
-    padding: 1.5rem 2rem;
+    padding: 24px 32px;
   }
 
   .header .logo img {
-    height: 7rem;
+    height: 112px;
   }
 
   section {
-    padding: 2rem;
+    padding: 32px;
   }
 
   .products .box-container .box .box-head .name {
-    font-size: 3.4rem;
+    font-size: 54px;
   }
 }
 
@@ -694,22 +689,22 @@ a {
     position: absolute;
     top: 95%;
     background-color: #fff;
-    height: calc(100vh - 9rem);
-    width: 30rem;
+    height: calc(100vh - 144px);
+    width: 480px;
     box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
     right: -100%;
   }
 
   .header .navbar.active {
-    right: 3rem;
+    right: 48px;
   }
 
   .header .navbar a {
     color: var(--black-color);
     display: block;
-    margin: 1.5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
+    margin: 24px;
+    padding: 8px;
+    font-size: 32px;
   }
 }
 
@@ -719,7 +714,7 @@ a {
   }
 
   .header .search-form {
-    width: 30rem;
+    width: 480px;
   }
 }
 
