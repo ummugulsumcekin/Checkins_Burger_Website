@@ -97,8 +97,8 @@ a {
   top: 115%;
   right: 7%;
   background-color: #ffffff;
-  width: 50rem;
-  height: 5rem;
+  width: 60rem;
+  height: 15rem;
   display: flex;
   align-items: center;
   border-radius: 3rem;
@@ -141,8 +141,8 @@ a {
 
 .header .navbar a {
   margin: 0 1rem;
-  font-size: 1.6rem;
-  color: var(--black-color);
+  font-size: 1.8rem;
+  color: var(--main-color);
   border-bottom: 0.1rem solid transparent;
 }
 
