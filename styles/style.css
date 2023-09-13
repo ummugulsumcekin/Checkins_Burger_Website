@@ -305,7 +305,13 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
-
+.box-head{
+  height: 200px;
+}
+.box-head img{
+  height: 100%;
+  object-fit: cover;
+}
 .products .box-container .box {
   text-align: center;
   background-color: #fff;
