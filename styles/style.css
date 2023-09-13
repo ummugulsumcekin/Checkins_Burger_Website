@@ -432,7 +432,7 @@ a {
   max-height: 100%;
   display: inline-block;
   border: 5px solid #000; /* Kenarlık çerçeve */
-  border-radius: 10px; /* Yumuşak geçiş (yuvarlak köşe) */
+  border-radius: 5px; /* Yumuşak geçiş (yuvarlak köşe) */
 }
 
 .about .row .content {
@@ -452,6 +452,7 @@ a {
   padding: 1rem 0;
   line-height: 1.8;
 }
+
 
 /*! about end  */
 
