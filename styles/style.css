@@ -305,10 +305,10 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
-.box-head{
+.box-head {
   height: 200px;
 }
-.box-head img{
+.box-head img {
   height: 100%;
   object-fit: cover;
 }
@@ -419,14 +419,25 @@ a {
 
 .about .row .image {
   flex: 1 1 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .about .row img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  border: 5px solid #000; /* Kenarlık çerçeve */
+  border-radius: 10px; /* Yumuşak geçiş (yuvarlak köşe) */
 }
 
 .about .row .content {
   flex: 1 1 45rem;
+  padding: 0 2rem;
+  
 }
 
 .about .row .content h3 {
