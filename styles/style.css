@@ -510,6 +510,10 @@ a {
 /*! contact start  */
 .contact .row {
   display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   background-color: var(--black-color);
   flex-wrap: wrap;
   gap: 1rem;
@@ -519,17 +523,22 @@ a {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden; 
 }
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .contact .row form h3 {
   text-transform: uppercase;
   font-size: 3.5rem;
-  color: #fff;
+  color: #333;
 }
 
 .contact .row form .inputBox {
@@ -537,27 +546,73 @@ a {
   align-items: center;
   margin: 2rem 0;
   border: var(--border);
+  border: 2px solid #ccc;
+  border-radius: 5px; 
+  padding: 0.5rem; 
 }
 
 .contact .row form .inputBox i {
-  color: #fff;
+  color: #333;
   font-size: 2rem;
   padding-left: 2rem;
 }
 
 .contact .row form .inputBox input {
   width: 100%;
-  padding: 2rem;
-  font-size: 1.7rem;
-  color: #fff;
-  text-transform: none;
-  background-color: transparent;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+  background-color: #f4f4f4; 
+  border: none; 
+  border-radius: 5px;
 }
 
 .contact .row form .btn {
-  color: var(--main-color);
-  background-color: #fff;
+  color: #fff; 
+  background-color: var(--main-color);
   font-weight: bold;
+  padding: 1rem 2rem; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+.contact .row form .btn:hover {
+  background-color: #0e0e0e 
+}
+/* Dosya yükleme alanını özelleştirme */
+.contact .row form .inputBox input[type="file"] {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  outline: none; /* Odak çerçevesini kaldırın */
+}
+
+.contact .row form .inputBox input[type="file"]:hover {
+  background-color: #e0e0e0; /* Hover rengini değiştirin */
+}
+
+.contact .row form .inputBox input[type="file"]::placeholder {
+  color: transparent; /* Placeholder metnini gizleyin */
+}
+
+/* Dosya yükleme alanı etrafındaki özel düğme */
+.contact .row form .file-upload {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact .row form .file-upload:hover {
+  background-color: #555; /* Hover rengini değiştirin */
 }
 
 /*! contact end  */
