@@ -34,7 +34,7 @@ Feel free to use this website as a template for your own burger delivery service
 
 #### Quality Ingredients: We carefully select the finest ingredients sourced from around the world and expertly craft our burgers to bring you the ultimate taste experience.
 
-#### Meticulously Designed Restaurant: Our restaurant, located in renowned locations such as Times Square in New York, the Champs-Élysées in Paris, and Shibuya in Tokyo, is meticulously designed with attention to detail. We aim to provide our customers with a delightful atmosphere for savoring the most delicious burgers.
+#### Meticulously Designed Restaurant: Our restaurant, located in renowned locations such as Times Square in New York, the Champs-Élysées in Paris, and Beşiktaş in İstanbul, is meticulously designed with attention to detail. We aim to provide our customers with a delightful atmosphere for savoring the most delicious burgers.
 
 #### Secret Recipe: Our experienced chefs, known for their culinary excellence in cities like Los Angeles, Dubai, and Sydney, meticulously prepare each burger using our secret recipe. This ensures that each bite leaves an unforgettable flavor on your palate.
 
