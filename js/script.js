@@ -43,4 +43,8 @@ menuBtn.addEventListener("click", function () {
   });
 });
 
+function alertBtn() {
+  alert("Your contact request has been received.");
+}
+
 
