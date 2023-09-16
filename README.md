@@ -9,14 +9,14 @@ Check'ins Burger was born from the passion for hamburgers of a couple during the
 
 ## Technologies Used
 
-#### HTML: Used for structuring the web page.<br>
-#### CSS: Used for styling and layout.<br>
-#### Bootstrap 5: Used for responsive design and UI components.<br>
-#### JavaScript: Used for interactivity and dynamic content.<br>
+#### HTML: Used for structuring the web page.
+#### CSS: Used for styling and layout.
+#### Bootstrap 5: Used for responsive design and UI components.
+#### JavaScript: Used for interactivity and dynamic content.
 
 ##Installation
 
-### Clone this repository to your local machine:
+Clone this repository to your local machine:
 
 Copy code
 
