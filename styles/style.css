@@ -510,6 +510,28 @@ a {
 
 /*! contact start  */
 
+.contact .share {
+  padding: 2rem 0;
+}
+.contact .msj{
+  color: white;
+font-size: large;
+}
+
+.contact .share a {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  color: #fff;
+  font-size: 2rem;
+  border: var(--border);
+  border-radius: 30%;
+  margin: 0.3rem;
+}
+
+.contact .share a:hover {
+  background-color: var(--main-color);
+}
 
 .contact .row {
   display: flex;
