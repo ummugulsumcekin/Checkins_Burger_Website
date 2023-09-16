@@ -523,7 +523,7 @@ a {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius:10px;
   overflow: hidden; 
 }
 .contact .row form {
