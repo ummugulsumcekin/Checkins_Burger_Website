@@ -17,7 +17,24 @@
   text-transform: capitalize;
   transition: 0.2s ease;
 }
+#scrollToTopButton {
+  display: none; /* Başlangıçta gizli olacak */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(225,225,217);
+  color: var(--black-color);
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
 
+#scrollToTopButton:hover {
+  background-color: rgb(74, 120, 5);
+}
 /*! base html codes  */
 html {
   font-size: 62.5%;

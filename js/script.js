@@ -44,7 +44,25 @@ menuBtn.addEventListener("click", function () {
 });
 
 function alertBtn() {
-  alert("Your contact request has been received.");
+  alert("Go up.");
 }
 
+
+window.addEventListener('scroll', toggleScrollToTopButton);
+
+// Sayfanın en üstüne gitmek için kullanılan fonksiyon
+function scrollToTop() {
+    document.documentElement.scrollTop = 0; // Chrome, Firefox, IE ve Opera
+    document.body.scrollTop = 0; // Diğer tarayıcılar için
+}
+
+// Scroll durumuna göre düğmeyi gizlemek veya göstermeye yardımcı 
+function toggleScrollToTopButton() {
+    var button = document.getElementById('scrollToTopButton');
+    if (document.documentElement.scrollTop > 100 || document.body.scrollTop > 100) {
+        button.style.display = 'block';
+    } else {
+        button.style.display = 'none';
+    }
+}
 
