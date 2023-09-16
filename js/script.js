@@ -44,7 +44,7 @@ menuBtn.addEventListener("click", function () {
 });
 
 function alertBtn() {
-  alert("Go up.");
+  alert("You can contact us for any questions, suggestions, or complaints that come to your mind.");
 }
 
 
