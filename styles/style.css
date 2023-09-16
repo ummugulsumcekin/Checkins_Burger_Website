@@ -509,23 +509,40 @@ a {
 /*! review end  */
 
 /*! contact start  */
+.additional-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.additional-content p {
+  font-size: 18px;
+  color: #333;
+}
+
+.additional-content img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
 .contact .row {
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  background-color: var(--black-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  background-color:var(--black-color);
   flex-wrap: wrap;
   gap: 1rem;
 }
 
 .contact .row .map {
-  flex: 1 1 45rem;
+  flex: 1 6 45rem;
   width: 100%;
+  height: auto;
   object-fit: cover;
-  border-radius:10px;
-  overflow: hidden; 
+  border-radius:5px;
+  
+
 }
 .contact .row form {
   flex: 1 1 45rem;
