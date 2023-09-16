@@ -580,6 +580,7 @@ a {
 .contact .row form .btn:hover {
   background-color: #0e0e0e 
 }
+
 /* Dosya yükleme alanını özelleştirme */
 .contact .row form .inputBox input[type="file"] {
   width: 100%;
