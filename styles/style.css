@@ -690,6 +690,7 @@ a {
   background-color: var(--main-color);
   padding: 1rem 2rem;
   margin-left: 1rem;
+ 
 }
 
 .footer .share {
@@ -703,7 +704,7 @@ a {
   color: #fff;
   font-size: 2rem;
   border: var(--border);
-  border-radius: 50%;
+  border-radius: 30%;
   margin: 0.3rem;
 }
 
