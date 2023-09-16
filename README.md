@@ -14,7 +14,7 @@ Check'ins Burger was born from the passion for hamburgers of a couple during the
 #### Bootstrap 5: Used for responsive design and UI components.
 #### JavaScript: Used for interactivity and dynamic content.
 
-##Installation
+## Installation
 
 Clone this repository to your local machine:
 
