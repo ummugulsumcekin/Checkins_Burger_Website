@@ -509,21 +509,8 @@ a {
 /*! review end  */
 
 /*! contact start  */
-.additional-content {
-  margin-top: 20px;
-  text-align: center;
-}
 
-.additional-content p {
-  font-size: 18px;
-  color: #333;
-}
 
-.additional-content img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
 .contact .row {
   display: flex;
   flex-wrap: wrap;
@@ -554,6 +541,11 @@ a {
 }
 
 .contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #333;
+}
+.contact .row form h1 {
   text-transform: uppercase;
   font-size: 3.5rem;
   color: #333;
@@ -598,6 +590,7 @@ a {
 .contact .row form .btn:hover {
   background-color: #0e0e0e 
 }
+
 
 /* Dosya yükleme alanını özelleştirme */
 .contact .row form .inputBox input[type="file"] {
