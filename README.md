@@ -3,7 +3,7 @@
 
 Check'ins Burger is a fast and reliable home delivery service that offers delicious burgers right to your doorstep. This repository contains the source code for the Check'ins Burger website, which is built using HTML, CSS, JavaScript, and Bootstrap 5.
 
-<h1><About Check'ins Burger>/>
+<h3><About Check'ins Burger>
 
 Check'ins Burger was born from the passion for hamburgers of a couple during their university years. They embarked on a journey to discover the best burgers, both locally and internationally, by constantly checking in at new places. During the pandemic, they decided to bring their love for burgers to the masses by introducing their own burger creations to the public. Check'ins Burger is all about sharing the secret of flavor with its customers.
 
