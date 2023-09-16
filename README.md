@@ -1,7 +1,9 @@
 # Checkins_Burger_Website
 
 
-Check'ins Burger provides fast and reliable home delivery service, delivering delicious burgers right to your doorstep. Additionally, our restaurant service is available in various countries and locations around the world. This repository contains the source code for the Check'ins Burger website, which is built using HTML, CSS, JavaScript, and Bootstrap 5.
+Check'ins Burger provides fast and reliable home delivery service, delivering delicious burgers right to your doorstep. Additionally, our restaurant service is available in various countries and locations around the world. 
+
+# *This repository contains the source code for the Check'ins Burger website, which is built using HTML, CSS, JavaScript, and Bootstrap 5.*
 
 ## About Check'ins Burger
 
