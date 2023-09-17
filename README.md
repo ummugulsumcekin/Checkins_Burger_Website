@@ -53,11 +53,11 @@ Contact Us: Contact.html
 Blogs: Blogs.html
 
 
+![Ekran Resmi 2023-09-17 10 48 10](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/2f1e666e-202e-4235-babb-b35652c36725)
+![Ekran Resmi 2023-09-17 10 47 47](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/c4d88628-4785-403c-bbde-954ab686b15a)
+![Ekran Resmi 2023-09-17 10 48 03](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/74fbb391-251a-4db8-8082-2076ef39ac97)
+![Ekran Resmi 2023-09-17 10 47 59](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/01402bde-57b6-48ba-8850-e95ad6f6fd5c)
+![Ekran Resmi 2023-09-17 10 47 52](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/92bb0e71-17a8-4d0d-8fae-d4b17366a6a6)
 
 Thank you for checking out the Check'ins Burger website! Enjoy your delicious burgers! 🍔🍟🥤
 
-
-![Ekran Resmi 2023-09-16 23 56 36](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/9e6db238-3410-4821-b145-798c376e90f8)
-![Ekran Resmi 2023-09-16 23 56 54](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/447480d6-9e76-4b3c-bdc2-3144eebd30b1)
-![Ekran Resmi 2023-09-16 23 57 09](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/7e106a9a-df14-48ee-9378-40124918ba30)
-![Ekran Resmi 2023-09-16 23 57 31](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/763ea105-f86a-4ede-8155-72dd0ad04633)
