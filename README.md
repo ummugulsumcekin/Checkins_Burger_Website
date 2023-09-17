@@ -56,9 +56,11 @@ Blogs: Blogs.html
 
 ![Ekran Resmi 2023-09-17 10 47 47](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/c4d88628-4785-403c-bbde-954ab686b15a)
 
-![Ekran Resmi 2023-09-17 10 47 59](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/01402bde-57b6-48ba-8850-e95ad6f6fd5c)
+
 ![Ekran Resmi 2023-09-17 10 47 52](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/92bb0e71-17a8-4d0d-8fae-d4b17366a6a6)
-![Ekran Resmi 2023-09-17 10 48 10](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/2f1e666e-202e-4235-babb-b35652c36725)
+![Ekran Resmi 2023-09-17 10 47 59](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/01402bde-57b6-48ba-8850-e95ad6f6fd5c)
 ![Ekran Resmi 2023-09-17 10 48 03](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/74fbb391-251a-4db8-8082-2076ef39ac97)
+![Ekran Resmi 2023-09-17 10 48 10](https://github.com/ummugulsumcekin/Checkins_Burger_Website/assets/102469765/2f1e666e-202e-4235-babb-b35652c36725)
+
 Thank you for checking out the Check'ins Burger website! Enjoy your delicious burgers! 🍔🍟🥤
 
